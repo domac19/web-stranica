@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Web Stranica</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="dizajn.css" type="text/css">
+</head> 
+<body>
+<header>
+    <nav>   
+         <img src="IMG_20201208_122906.jpg" height="300px" width="250px">   
+        <a href="web-stranica.html">Home &nbsp;&nbsp;</a>
+        <a href="portfolio.html">Portfolio &nbsp;&nbsp;</a>
+        <a href="contact.html">Contact &nbsp;&nbsp;</a>
+        <a href="info.html">Info &nbsp;&nbsp;</a>        
+    </nav>
+</header>
+        <p id="demo"> Ova stranica sadrži određene JavaScript metode i mogućnosti tog jezika.</p>
+    
+        <button type="button" onclick="document.getElementById('demo').style.display='none'">Klikni za skirvanje teksta!</button>
+        <p id="demo2"></p>
+    <script>
+        var podaci = {
+            ime:"Domagoj",
+            prezime:"Licitar",
+            studij:"Fakultet Organizacije i Informatike"
+        };
+            document.getElementById("demo2").innerHTML = podaci.ime + " "+ podaci.prezime +" koji studira na "+ podaci.studij;
+        alert('Pozdrav svima!')  
+    </script>
+<footer>
+    <nav id="nav2">
+        <a href="https://github.com/domac19"><img src="github_PNG15.png" height="100px" width="300px"></a>
+        <a href="https://www.linkedin.com/in/domagoj-licitar/"><img src="linkedin-logo-copy.png" height="100px" width="100px"></a>
+    </nav>
+</footer>
+</body>
+</html>
