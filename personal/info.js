@@ -1,9 +1,8 @@
-<!DOCTYPE html>
 <html>
 <head>
 <title>Web Stranica</title>
-<meta charset="utf-8">
-<link rel="stylesheet" href="dizajn.css" type="text/css">
+<meta charset="utf-8"/>
+<link rel="stylesheet" href="dizajn.css" type="text/css"/>
 </head> 
 <body>
 <script>              
@@ -24,7 +23,7 @@
         head.appendChild(link);   
 <header>
     <nav>   
-         <img src="IMG_20201208_122906.jpg" height="300px" width="250px">   
+         <img src="../personal/images/1716273503738.png" height="300px" width="300px"/>   
         <a href="web-stranica.html">Home &nbsp;&nbsp;</a>
         <a href="portfolio.html">Portfolio &nbsp;&nbsp;</a>
         <a href="contact.html">Contact &nbsp;&nbsp;</a>
@@ -33,8 +32,8 @@
 </header>
 <footer>
     <nav id="nav2">
-        <a href="https://github.com/domac19"><img src="github_PNG15.png" height="100px" width="300px"></a>
-        <a href="https://www.linkedin.com/in/domagoj-licitar/"><img src="linkedin-logo-copy.png" height="100px" width="100px"></a>
+        <a href="https://github.com/domac19"><img src="github_PNG15.png" height="100px" width="300px"/></a>
+        <a href="https://www.linkedin.com/in/domagoj-licitar/"><img src="linkedin-logo-copy.png" height="100px" width="100px"/></a>
     </nav>
 </footer>
 </script>
